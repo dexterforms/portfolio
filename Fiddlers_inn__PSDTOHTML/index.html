@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>the fiddlers inn</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script src = "js/jquery.js" type="text/javascript"></script>
+<script src = "js/flowtype.js" type="text/javascript"></script>
+<script src = "js/script.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="headerwrapper">
+		<div class="header">
+			<div class="span1 headerbg">
+				<header>
+				<h1>the fiddlers inn</h1>
+				<button id="navigator" onclick="showmenu();" title="Menu"></button>
+				<ul class="nav" id="menu">
+					<li><a href="#bar">the bar<span>  &gt;</span></a></li>
+					<li><a href="#restaurant">the food<span>  &gt;</span></a></li>
+					<li><a href="#music">the music<span>  &gt;</span></a></li>
+					<li><a href="#contact">get in touch<span>  &gt;</span></a></li>
+				</ul>
+				
+				</header>
+				</div>
+		</div><!--end-header-->
+		<div class="headercontent">
+		
+			<h1 class="caption">the fiddlers inn</h1>
+			<h1 class="about">A intro statement goes here</h1>
+			<h1 class="about">probably something about the pub</h1>
+			<a href="#contact" class="findoutmore">find out more</a>
+		
+		</div>
+		<div class="callmeformwrapper">
+			<div class="span1">
+			<form method="post" action="index.html" onsubmit="return validateCallme();">
+				<input type="text" placeholder="Name" id="cname" />
+				<input type="tel" placeholder="Phone number" id="cphone"/>
+				<input type="submit" value="Call me back" />
+			</form>
+			</div>
+		</div>
+		</div><!--end-header-wrapper-->
+		<div class="content">
+			<div class="span1">
+			<ul>
+			<li>
+			<div class="tile pubhours">
+			<h1>Pub hours</h1>
+			<div class="swrap">
+			<p>Mon-Thurs..........12.00-10.00</p>
+			<p>Fri........................12.00-12.00</p>
+			<p>Sat.........................12.00-1.00</p>
+			<p>Sun......................12.00-11.00</p>
+			</div>
+			</div><!--end pubhours-->
+			</li>
+			<li>
+			<div class="tile restauhours">
+			<h1>Restaurant hours</h1>
+			<div class="swrap">
+			<p>Mon-Thurs..........12.00-10.00</p>
+			<p>Fri........................12.00-12.00</p>
+			<p>Sat.........................12.00-1.00</p>
+			<p>Sun......................12.00-11.00</p>
+			</div>
+			</div><!--end restauhours-->
+			</li>
+			<li>
+			<div class="tile reservations">
+			<h1>Reservations</h1>
+			<h2>028 9445 2221</h2>
+			<h2>028 9445 2223</h2>
+			</div><!--end reservations-->
+			</li>
+			</ul>
+			
+			</div><!--end tiles-->
+			<div class="about_pub" id="bar">
+			<div class="span1 ">
+				<div class="the_pub">
+					<h1>The pub</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="party2">
+				<img src="images/party2.jpg" alt="The Pub" />
+				</div>
+			</div><!--end-the pub-->
+			</div><!--end-about pub-->
+			<div class="about_restau" id="restaurant">
+			<div class="span1 ">
+				<div class="the_pub">
+				<img src="images/cake.jpg" alt="The Pub" />
+				</div>
+				<div class="party2">
+				<h1>The restaurant</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div><!--end-the pub-->
+			</div><!--end-about restau-->
+			<div class="about_craic" id="music">
+			<div class="span1 ">
+			
+				<div class="the_pub">
+				<h1>The craic</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				
+				<div class="party2">
+				<img src="images/party1.jpg" alt="The craic" />
+				</div>
+			</div><!--end-the pub-->
+			</div><!--end-about craic-->
+			<div class="tripadvisor">
+			
+				<div class="span1">
+				<ul>
+				<li>
+				<div class="comments">
+					<p>"Excellent pub grub, friendly atmosphere"</p>
+					<p><span class="bullets"></span><span> Reviewed 3 August 2012</span></p>
+				</div><!--comments-->
+				</li>
+				<li>
+				<div class="comments pos2">
+					<p>"Excellent pub grub, friendly atmosphere"</p>
+					<p class="stats"><span class="bullets"></span><span> Reviewed 3 August 2012</span></p>
+				</div><!--comments-->
+				</li>
+				<li>
+				<div class="comments">
+					<p>"Excellent pub grub, friendly atmosphere"</p>
+					<p class="stats"><span class="bullets"></span><span> Reviewed 3 August 2012</span></p>
+				</div>
+				</li>
+				</ul>
+				</div><!--span1-->
+				
+				
+				
+			</div><!--end-tripadvisor-->
+			<div class="contactformwrapper">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.0654808529384!2d-6.216492300000009!3d54.620453999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48610001f8fc63e3%3A0x59abe5ed6ad65d7e!2sFiddlers+Inn!5e0!3m2!1sen!2s!4v1401187213178" width="1000" height="1000" style="border:0" id="gmap"></iframe>
+				<div class="span1">
+				<div class="contactform" id="contact">
+					<h1>Get in touch</h1>
+					<div>
+						<p class="fiddler">The Fiddlers Inn</p>
+						<p>36 Main St, Crumlin,</p>
+						<p>County Antrim, BT29 4UR</p>
+					</div>
+					<div>
+						<p><span class="tel">Tel:</span><span> 028 9445 2221</span></p>
+						<p><span class="tel">Email:</span><span> info@fiddlersinn.co.uk</span></p>
+					</div>
+					<h2>Contact form</h2>
+					<form method="post" action="index.html" onsubmit="return validateContact();">
+						<input type="text" placeholder="Name" required="required" id="name" />
+						<input type="email" placeholder="Email" required="required" id="email"/>
+						<textarea placeholder="Message" id="message" required="required"></textarea>
+						<input type="submit" value="Send my message" />
+					</form>
+				</div>
+				</div><!--contact-form-->
+			</div><!--end contact form-->
+			
+		</div><!--end-content-->
+		<div class="footer">
+			<div class="span1">
+				<h6>&copy; 2014. The Fiddlers Inn. All Rights Reserved</h6>
+			</div><!--end span1-->
+		</div><!--end-footer-->
+	</div>
+</body>
+</html>

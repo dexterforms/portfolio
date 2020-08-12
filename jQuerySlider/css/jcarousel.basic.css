@@ -1,0 +1,328 @@
+.jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 18px solid #e9e9e9;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;
+}
+.jcarousel ul li {
+	width: 960px;
+	height: 720px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+.jcarousel ul li h1 {
+	font-weight: 600;
+	font-size: 32px;
+	font-family:"Century Gothic";
+	line-height: 1.2em;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	z-index: 100;
+}
+.jcarousel h1 span {
+	font-style: italic;
+	font-weight: 600;
+}
+.jcarousel h1 p {
+	text-align: right;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.emailselected {
+	width: 960px;
+	height: 720px;
+	text-align: center;
+	background: url(../images/emailbg.jpg) no-repeat;
+	background-size: 170% 100%;
+}
+.emailinput {
+	width: 500px;
+	margin: 0 auto;
+}
+ul li div.emailinput h1 {
+	font-size: 20px ;
+	font-weight: normal;
+	font-family:"proxima-nova";
+}
+.emailinput h1 span {
+	font-weight: bold;
+	font-style: italic;
+	display: inline !Important;
+}
+.formarea {
+	border-top: 1px solid #ededed;
+}
+.emailinput input[type="email"]{
+	height: 35px;
+	padding: 0 10px 0 25px;
+	line-height: normal;
+	color: #525252;
+	background: url("../images/subscribe-icon.jpg") no-repeat left center;
+	box-shadow: none;
+	border: 0;
+	outline: 0;
+}
+.emailinput input[type="submit"]{
+	color: white;
+	background: #C227B9;
+}
+.jcarousel-wrapper .photo-credits {
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    height: 720px;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+.jcarousel ul li div{
+	display: inline-block;
+}
+li.jewel div {
+	width: 220px !important;
+}
+.jcarousel ul li div span {
+	display: block;
+	text-align: center;
+}
+/** Carousel Controls **/
+.carousal-control {
+	width: 100%;
+	height: 20px;
+	display: block;
+	position: relative;
+}
+#carousal-stat {
+	color: white;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	background:black; 
+	padding: 5px;
+}
+.stack {
+	width: 960px;
+	height: 5px;
+	display: block;
+	background: #e9e9e9;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.jcarousel-control-prev{
+	float: left;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+	padding: 10px;
+    text-decoration: none;
+	
+}
+.jcarousel-control-next {
+	border: 0;
+	outline: 0;
+ }
+li.tron div {
+	float: left;
+	margin-left: 90px;
+	margin-top: 20px;
+}
+li.tron img {
+	width: 130px;
+	height: 130px;
+}
+li.tron div a {
+	display: inline-block;
+}
+li.tron div span {
+	line-height: 1.0em;
+	font-size: 27px;
+	font-style: italic;
+	font-weight: 600;
+	font-family:"Century Gothic";
+}
+li.tron div.part2 {
+	margin-left:220px;
+}
+li.tron div.part2 span {
+	font-style: normal;
+}
+li.bag div {
+	width: 200px;
+	height: 200px;
+}
+.bag img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+}
+li.sandal div h1 {
+	margin-bottom: 40px;
+}
+li.sandal div {
+	float: none;
+	margin: 20px;
+	margin-top: 10px;
+}
+.sandal img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+}
+li.jewel div {
+	float: none;
+	margin-left:0;
+	margin-right: 20px;
+}
+.jewel div img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+}
+.crown-wrapper {
+	width: 100%;
+	position: relative;
+	margin: 0 !important;
+	
+}
+.crown img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+	z-index: 10;
+}
+.crown h1 {
+	font-weight: bold;
+}
+.wicked {
+	color:; black !important;
+	font-style: normal !important;
+	font-size: 32px !important;
+	font-family: "Bauhaus 93" !important;
+}
+#crown1 {
+	position: absolute;
+	top: 70px;
+	left:0px;
+	z-index: 11;
+	cursor: text;
+}
+#crown2{
+	position: absolute;
+	top: 180px;
+	left: 690px;
+	z-index: 10;
+}
+#crown3{
+	position: absolute;
+	top: 270px;
+	left: 470px;
+	z-index: 10;
+}
+#crown4{
+	position: absolute;
+	top: 380px;
+	left: 660px;
+	z-index: 10;
+}
+.nail img {
+	width: auto !important;
+	height: auto !important;
+	margin: 20px;
+}
+
+.style  img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+	margin: 20px;
+}
+
+.closet img,.product img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+	margin: 15px;
+}
+li.nail h1, li.closet h1, li.product h1 {
+	margin-bottom: 25px !important;
+}
+.kate  img {
+	width: auto !important;
+	height: auto !important;
+	vertical-align: bottom;
+	margin: 2px;
+}
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 2px;
+    
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
