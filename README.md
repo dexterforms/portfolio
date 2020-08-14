@@ -1,4 +1,9 @@
-# My portfolio
+# My portfolio samples
 
-## 1) PSD to HTML
-[Rick & Sid](https://manojadams.github.io/portfolio/RICK_SID/)
+## PSD to HTML
+### 1. [Rick & Sid](https://manojadams.github.io/portfolio/RICK_SID/)
+
+### 2. [Fiddlers Inn](https://manojadams.github.io/portfolio/Fiddlers_inn__PSDTOHTML/)
+
+## Slider
+### 1. jQuery Slider (https://manojadams.github.io/portfolio/jQuerySlider/)
