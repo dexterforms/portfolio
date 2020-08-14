@@ -6,4 +6,4 @@
 ### 2. [Fiddlers Inn](https://manojadams.github.io/portfolio/Fiddlers_inn__PSDTOHTML/)
 
 ## Slider
-### 1. [jQuery Slider] (https://manojadams.github.io/portfolio/jQuerySlider/)
+### 1. [jQuery Slider](https://manojadams.github.io/portfolio/jQuerySlider/)
