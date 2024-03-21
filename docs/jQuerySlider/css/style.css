@@ -1,0 +1,22 @@
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+#mslider {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    height: 720px;
+}
+
+#mslider ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#mslider li {
+    float: left;
+}
