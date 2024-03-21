@@ -1,1 +1,0 @@
-a jQuery slider work for Julep.com
